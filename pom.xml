@@ -115,6 +115,7 @@
                 </configuration>
                 <executions>
                     <execution>
+                        <?m2e execute onConfiguration,onIncremental?>
                         <id>validate</id>
                         <phase>validate</phase>
                         <goals>
@@ -134,6 +135,7 @@
                 </configuration>
                 <executions>
                     <execution>
+                        <?m2e execute onConfiguration,onIncremental?>
                         <id>analyze-compile</id>
                         <phase>compile</phase>
                         <goals>
